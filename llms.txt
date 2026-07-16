@@ -1,0 +1,2 @@
+# UAE Settlement Calculator
+> Free UAE full & final settlement calculator (gratuity + leave + notice + pending salary) per Federal Decree-Law 33/2021. A Servia Group project — more tools at calcnate.com.

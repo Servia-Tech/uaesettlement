@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UAE Final Settlement Calculator 2026 — Gratuity + Leave + Notice | End of Service</title>
+<link rel="canonical" href="https://uaesettlement.com/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="UAE Final Settlement Calculator 2026 — Gratuity + Leave + Notice">
+<meta property="og:url" content="https://uaesettlement.com/">
+<meta name="theme-color" content="#0496AD">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"UAE Final Settlement Calculator","url":"https://uaesettlement.com/","applicationCategory":"FinanceApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Servia Group","url":"https://servia.ae"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is included in a UAE full and final settlement?","acceptedAnswer":{"@type":"Answer","text":"End-of-service gratuity, encashment of unused annual leave at basic wage, pending unpaid salary, notice-period pay if the employer ended the contract without notice, minus documented deductions such as loans or advances."}},
+{"@type":"Question","name":"How is end-of-service gratuity calculated in the UAE?","acceptedAnswer":{"@type":"Answer","text":"21 days of basic salary per year for the first 5 years and 30 days per year beyond 5 years, capped at 2 years of wages, for anyone with at least 1 year of continuous service (Federal Decree-Law 33/2021)."}},
+{"@type":"Question","name":"When must my final settlement be paid in the UAE?","acceptedAnswer":{"@type":"Answer","text":"All end-of-service entitlements must be paid within 14 days of the contract end date under UAE labour law."}},
+{"@type":"Question","name":"Do I lose gratuity if I resign?","acceptedAnswer":{"@type":"Answer","text":"No. Since Federal Decree-Law 33/2021 took effect, resignation no longer reduces gratuity — anyone with over 1 year of service receives the full calculation."}}
+]}
+</script>
+<meta name="description" content="Free UAE full &amp; final settlement calculator: end-of-service gratuity, unused annual-leave encashment, notice pay and pending salary, per Federal Decree-Law 33 of 2021. Instant breakdown + downloadable summary.">
+<style>
+:root{--ink:#0f172a;--teal:#0496AD;--deep:#0F766E;--muted:#64748b;--border:#e2e8f0;--bg:#f8fafc;--good:#047857}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+.top{background:linear-gradient(135deg,#0F766E,#0496AD);color:#fff;padding:26px 18px}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+.top h1{font-size:24px;letter-spacing:-.02em}.top p{opacity:.92;font-size:14px;margin-top:6px}
+.card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+label{display:block;font-size:13px;font-weight:600;margin:14px 0 5px}
+.hint{font-weight:400;color:var(--muted);font-size:12px}
+input,select{width:100%;padding:11px 12px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:#fff}
+input:focus,select:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(4,150,173,.12)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{margin-top:18px;width:100%;background:var(--teal);color:#fff;border:0;padding:14px;border-radius:10px;font-size:16px;font-weight:800;cursor:pointer}
+.btn:hover{background:var(--deep)}
+.res{display:none}
+.line{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--border);font-size:15px}
+.line span:last-child{font-weight:700;font-variant-numeric:tabular-nums}
+.total{display:flex;justify-content:space-between;padding:16px 0 4px;font-size:20px;font-weight:800;color:var(--good)}
+.sub{font-size:13px;color:var(--muted)}
+h2{font-size:17px;margin:0 0 4px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.pill{background:var(--bg);border:1px solid var(--border);border-radius:999px;padding:6px 12px;font-size:12px}
+.disc{font-size:12px;color:var(--muted);background:#FFFBEB;border:1px solid #FDE68A;border-radius:10px;padding:12px;margin-top:14px;line-height:1.5}
+.actions{display:flex;gap:10px;margin-top:14px}
+.actions button{flex:1;padding:11px;border-radius:10px;border:1px solid var(--border);background:#fff;font-weight:700;cursor:pointer;font-size:14px}
+details{margin-top:10px;border:1px solid var(--border);border-radius:10px;padding:2px 14px}
+summary{font-weight:700;padding:12px 0;cursor:pointer;font-size:14px}
+details p{padding:0 0 12px;font-size:14px;color:#334155}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:24px}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap">
+<h1>UAE Final Settlement Calculator</h1>
+<p>End-of-service gratuity + leave encashment + notice + pending salary — per UAE Federal Decree-Law No. 33 of 2021.</p>
+</div></div>
+
+<div class="wrap">
+<div class="card">
+<h2>Your details</h2>
+<p class="sub">All figures in AED. Gratuity is calculated on <b>basic</b> salary under UAE law.</p>
+
+<label>Basic monthly salary (AED)<span class="hint"> — the "basic" line on your contract, not total</span></label>
+<input id="basic" type="number" inputmode="decimal" placeholder="e.g. 6000">
+
+<label>Gross monthly salary (AED)<span class="hint"> — total incl. allowances (used for notice &amp; pending pay). Leave blank to use basic.</span></label>
+<input id="gross" type="number" inputmode="decimal" placeholder="e.g. 10000">
+
+<div class="row">
+<div><label>Years of service</label><input id="yrs" type="number" inputmode="numeric" placeholder="e.g. 3"></div>
+<div><label>Extra months</label><input id="mos" type="number" inputmode="numeric" placeholder="e.g. 6"></div>
+</div>
+
+<label>How did the job end?</label>
+<select id="reason">
+<option value="either">Resignation or termination (new law: full gratuity if &gt; 1 year)</option>
+<option value="termination">Terminated by employer</option>
+<option value="resignation">Resigned</option>
+</select>
+
+<label>Unused annual-leave days to encash <span class="hint">(optional)</span></label>
+<input id="leave" type="number" inputmode="numeric" placeholder="e.g. 12">
+
+<label>Unpaid days still owed to you (pending salary) <span class="hint">(optional)</span></label>
+<input id="pending" type="number" inputmode="numeric" placeholder="e.g. 8">
+
+<label>Notice pay owed by employer — days <span class="hint">(if terminated without notice; optional)</span></label>
+<input id="notice" type="number" inputmode="numeric" placeholder="e.g. 30">
+
+<label>Deductions (loans/advances owed) — AED <span class="hint">(optional)</span></label>
+<input id="deduct" type="number" inputmode="decimal" placeholder="e.g. 0">
+
+<button class="btn" onclick="calc()">Calculate my settlement →</button>
+</div>
+
+<div class="card res" id="res">
+<h2>Your estimated final settlement</h2>
+<div id="lines"></div>
+<div class="total"><span>Total settlement</span><span id="total">AED 0</span></div>
+<div class="pills" id="pills"></div>
+<div class="actions">
+<button onclick="window.print()">🖨️ Save / print PDF</button>
+<button onclick="share()">🔗 Copy summary</button>
+</div>
+<p class="sub" style="margin-top:10px">Need gratuity only? Try the <a href="https://calcnate.com/uae/gratuity-calculator/">UAE Gratuity Calculator</a> on our hub.</p>
+<div class="disc" id="disc"></div>
+</div>
+
+<details>
+<summary>How UAE end-of-service gratuity is calculated</summary>
+<p>Under Federal Decree-Law No. 33 of 2021 (mainland UAE), an employee who completes at least one year of continuous service is entitled to end-of-service gratuity: <b>21 days' basic wage for each of the first 5 years</b>, and <b>30 days' basic wage for each year beyond 5 years</b>. Total gratuity is capped at <b>2 years' wages</b>. The daily wage is your basic monthly salary ÷ 30. Unpaid-leave days don't count toward service. Under the current law, resignation no longer reduces gratuity (the old unlimited-contract reductions were removed).</p>
+</details>
+<details>
+<summary>What's included in a "full &amp; final settlement"</summary>
+<p>Beyond gratuity, your final settlement typically includes: encashment of any unused annual leave (paid at basic wage), any pending/unpaid salary for days worked, notice-period pay if your employer ended the contract without giving notice, minus any documented deductions (e.g., outstanding loans or advances). Air-ticket/repatriation may also apply depending on your contract.</p>
+</details>
+
+<div class="disc">
+⚠️ <b>Estimate only — not legal or financial advice.</b> This tool follows the mainland UAE Federal Decree-Law No. 33 of 2021. Free zones (e.g. DIFC, ADGM), domestic workers, and specific contract terms can differ. For a binding figure, check with your employer's HR or the UAE Ministry of Human Resources &amp; Emiratisation (MOHRE).
+</div>
+</div>
+
+<footer>© 2026 uaesettlement.com · A <a href="https://servia.ae" rel="noopener" style="color:#0F766E">Servia Group</a> project · More free tools at <a href="https://calcnate.com" style="color:#0F766E">calcnate.com</a><br>Figures per UAE Federal Decree-Law 33/2021 · estimates for guidance only · not legal advice · contact: support@servia.ae</footer>
+
+<script>
+var AED = function(n){return 'AED ' + (Math.round(n)).toLocaleString('en-US');};
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+function calc(){
+  var basic=num('basic');
+  if(basic<=0){alert('Please enter your basic monthly salary.');return;}
+  var gross=num('gross'); if(gross<=0) gross=basic;
+  var yrs=num('yrs'), mos=num('mos');
+  var service=yrs + mos/12;
+  var reason=document.getElementById('reason').value;
+  var leaveDays=num('leave'), pendingDays=num('pending'), noticeDays=num('notice'), deduct=num('deduct');
+
+  var dailyBasic=basic/30, dailyGross=gross/30;
+
+  // Gratuity (new law): 21 days/yr first 5 yrs, 30 days/yr after, cap 2 years' wages.
+  var gratuity=0, note='';
+  if(service < 1){ gratuity=0; note='No gratuity — less than 1 year of service.'; }
+  else {
+    var d1=Math.min(service,5)*21;
+    var d2=Math.max(0,service-5)*30;
+    var gdays=d1+d2;
+    if(gdays>730){gdays=730;} // 2 years' basic wage cap
+    gratuity=gdays*dailyBasic;
+  }
+  var leave=leaveDays*dailyBasic;
+  var pending=pendingDays*dailyGross;
+  var notice=noticeDays*dailyGross;
+  var total=gratuity+leave+pending+notice-deduct;
+  if(total<0) total=0;
+
+  var L='';
+  L+='<div class="line"><span>End-of-service gratuity<br><span class="sub">'+(service<1?'&lt;1 yr':service.toFixed(2)+' yrs service')+'</span></span><span>'+AED(gratuity)+'</span></div>';
+  if(leave>0)   L+='<div class="line"><span>Annual-leave encashment<br><span class="sub">'+leaveDays+' days</span></span><span>'+AED(leave)+'</span></div>';
+  if(pending>0) L+='<div class="line"><span>Pending salary<br><span class="sub">'+pendingDays+' days</span></span><span>'+AED(pending)+'</span></div>';
+  if(notice>0)  L+='<div class="line"><span>Notice-period pay<br><span class="sub">'+noticeDays+' days</span></span><span>'+AED(notice)+'</span></div>';
+  if(deduct>0)  L+='<div class="line"><span>Less: deductions</span><span>- '+AED(deduct)+'</span></div>';
+  document.getElementById('lines').innerHTML=L;
+  document.getElementById('total').textContent=AED(total);
+  document.getElementById('disc').innerHTML = note ? ('ℹ️ '+note) : '✅ Based on '+service.toFixed(2)+' years of service on AED '+basic.toLocaleString()+' basic.';
+  var pills='<span class="pill">Gratuity: '+AED(gratuity)+'</span>';
+  pills+='<span class="pill">Daily basic: '+AED(dailyBasic)+'</span>';
+  document.getElementById('pills').innerHTML=pills;
+  document.getElementById('res').style.display='block';
+  document.getElementById('res').scrollIntoView({behavior:'smooth'});
+  window._sum='UAE Final Settlement estimate\nGratuity: '+AED(gratuity)+'\nLeave: '+AED(leave)+'\nPending: '+AED(pending)+'\nNotice: '+AED(notice)+'\nDeductions: -'+AED(deduct)+'\nTOTAL: '+AED(total);
+}
+function share(){ if(window._sum){navigator.clipboard&&navigator.clipboard.writeText(window._sum);alert('Summary copied.');}}
+</script>
+</body>
+</html>
